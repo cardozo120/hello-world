@@ -1,0 +1,21 @@
+h1{
+  background-color: hsla(18, 100%, 50%, 0.5);
+  border: solid #eee 10px;
+  border-radius: 10px;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(255, 0, 0,.4);
+}
+
+.toluca{
+  position: relative;
+   top: 400px;
+   right: 20x;
+}
+.title{
+  position: fixed;
+  text-align: center;
+}
