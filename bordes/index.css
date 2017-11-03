@@ -29,6 +29,39 @@ h1{
   max-width: 100;
 }
 
-//*.thumb:hover{
+.tolucapolaroid {
+  /*opacity: .3;*/
+  filter: brightness(.2);
+}
+.tolucapolaroid:hover{
+  /*opacity: 1;*/
+  filter: brightness(1);
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.polaroid{
+  position: relative;
+  width: 300px;
+  padding: 1%;
+  background-color: white;
+  border: solid 1px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+.texto{
+  position: absolute;
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+}
+
+.letras{
+text-align: center;
+}
+/*.thumb:hover{
   width: 200px;
 }
