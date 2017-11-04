@@ -71,12 +71,43 @@ text-align: center;
   height: 100px;
   width: 100px;
   background-color: blue;
-  transition: width 2s, height 2s, transform 2s;
+  transition: width 2s, height 2s, transform 4s;
 }
 .cubo:hover{
   height: 300px;
   width: 300px;
+  background-color: yellow;
   transform: rotate(180deg);
+  animation-name: juego;
+  animation-duration: 4s;
+}
+
+@keyframes juego {
+  0%{background-color: blue}
+  50%{background-color: green}
+  75%{background-color: red}
+  100%{background-color: yellow}
+}
+.rectangulo{
+  height: 100px;
+  width: 400;
+  background-color: red;
+transition: background-color 4s, transform 4s, width 4s, height 4s;
+}
+
+.rectangulo:hover{
+  background-color: white;
+  transform: rotate(20deg);
+  animation-name: grande;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction:  reverse;
+}
+
+@keyframes grande {
+  10{transform: rotate(-10);}
+  50%{background-color: orange;}
+  100%{background-color: white;}
 }
 /*.thumb:hover{
   width: 200px;
