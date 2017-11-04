@@ -48,9 +48,14 @@ div.polaroid{
   padding: 1%;
   background-color: white;
   border: solid 1px;
+  margin-bottom: 25px;
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   display: block;
+  transition: transform 2s;
+}
+div.polaroid:hover{
+  transform: scale(1.5,1.5);
 }
 .texto{
   position: absolute;
@@ -61,6 +66,17 @@ div.polaroid{
 
 .letras{
 text-align: center;
+}
+.cubo{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  transition: width 2s, height 2s, transform 2s;
+}
+.cubo:hover{
+  height: 300px;
+  width: 300px;
+  transform: rotate(180deg);
 }
 /*.thumb:hover{
   width: 200px;
