@@ -127,4 +127,26 @@ transition: background-color 4s, transform 4s, width 4s, height 4s;
   body{
     background-color: white;
   }
+  div.polaroid{
+    display: inline-block;
+  }
+}
+.ejercicio{
+  position: relative;
+  background: url("toluca.png") 0 / cover fixed;
+  width: 100%;
+  height: 1000px;
+}
+.content{
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  top: 30%; bottom: 30%; left:25%; right:25%;
+  filter: blur(5px);
+}
+.palabras{
+  position: absolute;
+    top: 40%; bottom: 40%; left:40%; right:40%;
+  color: white;
 }
