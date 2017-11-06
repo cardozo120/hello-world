@@ -150,3 +150,19 @@ transition: background-color 4s, transform 4s, width 4s, height 4s;
     top: 40%; bottom: 40%; left:40%; right:40%;
   color: white;
 }
+
+a:link{
+  color: silver;
+}
+a:active{
+  background-color: red;
+  color: black;
+}
+a:hover{
+  background-color: blue;
+  color: white;
+}
+a:visited{
+  background-color: green;
+  color: yellow;
+}
